@@ -1,0 +1,4 @@
+config BR2_PACKAGE_HAS_LIBOPENVX
+	bool
+	default y if BR2_PACKAGE_IMX_GPU_VIV
+
