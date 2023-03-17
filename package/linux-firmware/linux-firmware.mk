@@ -1,0 +1,6 @@
+ifeq ($(BR2_PACKAGE_LINUX_FIRMWARE_IMX),y)
+LINUX_FIRMWARE_FILES += imx/sdma/sdma-imx6q.bin
+LINUX_FIRMWARE_FILES += imx/sdma/sdma-imx7d.bin
+LINUX_FIRMWARE_ALL_LICENSE_FILES += LICENSE.nxp
+endif
+

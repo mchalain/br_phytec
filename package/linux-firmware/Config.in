@@ -1,0 +1,8 @@
+if BR2_PACKAGE_LINUX_FIRMWARE
+
+config BR2_PACKAGE_LINUX_FIRMWARE_IMX
+        bool "imx sdma firmware"
+        help
+          Firmware files for i.mx6 and i.mx7 sDMA chipset
+
+endif

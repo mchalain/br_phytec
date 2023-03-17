@@ -1,1 +1,2 @@
 source "$BR2_EXTERNAL_PHYTEC_PATH/package/Config.in"
+source "$BR2_EXTERNAL_PHYTEC_PATH/package/linux-firmware/Config.in"
